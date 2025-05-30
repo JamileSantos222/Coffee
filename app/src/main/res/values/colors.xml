@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="marron">#865045</color>
+    <color name="bege">#f6ddcc</color>
+    <color name="marroncla">#c79885</color>
+    <color name="marronPuro">#784212</color>
+
+
+</resources>
