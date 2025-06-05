@@ -7,21 +7,21 @@
     android:padding="24dp">
 
 
+    <TextView
+        android:id="@+id/textTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COFFEE"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="16dp" />
+
+
     <ImageView
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:src="@drawable/coffeelogo"/>
-
-    <EditText
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:id="@+id/name"
-        android:textColor="@color/marron"
-        android:textStyle="bold"
-        android:text="Coffee"
-        android:layout_marginTop="16dp"
-        />
-
 
 
 
