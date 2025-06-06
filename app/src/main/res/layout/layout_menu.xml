@@ -23,24 +23,24 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
                 android:gravity="center"
+                android:orientation="vertical"
                 android:padding="16dp">
 
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/expresso"
-                    android:contentDescription="Café Expresso" />
+                    android:contentDescription="Café Expresso"
+                    android:src="@drawable/expresso" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:text="Café Expresso"
-                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
                     android:textSize="16sp"
-                    android:textColor="@android:color/black" />
+                    android:textStyle="bold" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -56,25 +56,26 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
                 android:gravity="center"
+                android:orientation="vertical"
                 android:padding="16dp">
 
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/cafecomleite"
-                    android:contentDescription="Café com Leite" />
+                    android:contentDescription="Café com Leite"
+                    android:src="@drawable/cafecomleite" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:text="Café com Leite"
-                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
                     android:textSize="16sp"
-                    android:textColor="@android:color/black" />
+                    android:textStyle="bold" />
             </LinearLayout>
+
         </androidx.cardview.widget.CardView>
 
         <!--  Cappuccino -->
@@ -89,28 +90,28 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
                 android:gravity="center"
+                android:orientation="vertical"
                 android:padding="16dp">
 
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/cappucino"
-                    android:contentDescription="Cappuccino" />
+                    android:contentDescription="Cappuccino"
+                    android:src="@drawable/cappucino" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:text="Cappuccino"
-                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
                     android:textSize="16sp"
-                    android:textColor="@android:color/black" />
+                    android:textStyle="bold" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
-        <!-- Card Achocolatado -->
+        <!-- Achocolatado -->
         <androidx.cardview.widget.CardView
             android:id="@+id/cardAchocolatado"
             android:layout_width="match_parent"
@@ -122,24 +123,24 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
                 android:gravity="center"
+                android:orientation="vertical"
                 android:padding="16dp">
 
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/achocolatado"
-                    android:contentDescription="Achocolatado" />
+                    android:contentDescription="Achocolatado"
+                    android:src="@drawable/achocolatado" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:text="Achocolatado"
-                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
                     android:textSize="16sp"
-                    android:textColor="@android:color/black" />
+                    android:textStyle="bold" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
