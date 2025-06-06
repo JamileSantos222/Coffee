@@ -1,37 +1,147 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:id="@+id/mainMenu"
-    android:layout_margin="8dp"
-    android:onClick="abrirCafe1">
+    android:layout_height="match_parent"
+    android:padding="16dp">
 
     <LinearLayout
+        android:id="@+id/containerCards"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:gravity="center"
-        android:padding="16dp">
+        android:orientation="vertical">
 
-        <ImageView
-            android:id="@+id/imgCafe"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:src="@drawable/expresso"
-            android:contentDescription="Imagem do Café" />
-
-        <TextView
-            android:id="@+id/txtNomeCafe"
-            android:layout_width="wrap_content"
+        <!-- Café Expresso -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardCafeExpresso"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:text="Café Expresso"
-            android:textStyle="bold"
-            android:textSize="16sp"
-            android:textColor="@android:color/black" />
+            android:layout_margin="8dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/expresso"
+                    android:contentDescription="Café Expresso" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Café Expresso"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--  Café com Leite -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardCafeComLeite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/cafecomleite"
+                    android:contentDescription="Café com Leite" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Café com Leite"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--  Cappuccino -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardCappuccino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/cappucino"
+                    android:contentDescription="Cappuccino" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Cappuccino"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Card Achocolatado -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardAchocolatado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/achocolatado"
+                    android:contentDescription="Achocolatado" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Achocolatado"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
 
     </LinearLayout>
-
-    
-
-</androidx.cardview.widget.CardView>
+</ScrollView>
